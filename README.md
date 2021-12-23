@@ -35,8 +35,8 @@ The second issue with the CSS took a little more research. I found out that I wo
 
 Thanks to this, my site went from looking like the example on the module:
 
-![Original Site]()
+![Original Site](https://github.com/Itgotworse26/Mission-to-Mars/blob/main/Mission_to_Mars_Site_Original.PNG)
 
 To looking like this:
 
-![New Site Site]()
+![New Site](https://github.com/Itgotworse26/Mission-to-Mars/blob/main/Mission_to_Mars_Site_Revision.PNG)
