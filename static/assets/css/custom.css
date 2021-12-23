@@ -1,0 +1,29 @@
+/* Styling the button by changing size of button and color */
+.btn { font-size: 20px;
+  color: white;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.btn:hover {
+  color: red;
+  background-color: white;
+  border-color: red;
+}
+
+/* Changing color of jumbotron to gray background and white font*/
+.jumbotron{
+    background-color: gray;
+    color: white;
+}
+
+/* Changing colors of striped table*/
+.table-striped tr:nth-child(even){
+      background-color: blue !important; 
+      color: white !important;
+}
+.table-striped tr:nth-child(odd){
+        background-color: red !important; 
+        color: white !important;
+}
