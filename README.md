@@ -14,21 +14,29 @@ The first problem was solved by fixing a slight typo on line 20 of the app.py.
 
 My line had read:
 
-...
+```
 mars.update({}, {"$set":mars_data}, upsert=True)
-...
+```
 
 When it was supposed to be:
 
-...
+```
 mars.update_one({}, {"$set":mars_data}, upsert=True)
-...
+```
 
 The issue with .update was because the Mars variable is a collection object, there is no .update method for it. If I did not use the .update_one, I would receive this error on my terminal.
 
-...
+```
 TypeError: 'Collection' object is not callable. If you meant to call the 'update' method on a 'Collection' object it is failing because no such method exists.
-...
+```
 
 
-The second issue with the CSS took a little more research. I found out that I would have to refresh my cached page by using CTRL + F5. This forced the cache to refresh and allowed the changes on my custom.css file to be reflected on the Mission to Mars website. 
+The second issue with the CSS took a little more research. I found out that I would have to refresh my cached page by using CTRL + F5. This forced the cache to refresh and allowed the changes on my custom.css file to be reflected on the Mission to Mars website.
+
+Thanks to this, my site went from looking like the example on the module:
+
+![Original Site]()
+
+To looking like this:
+
+![New Site Site]()
