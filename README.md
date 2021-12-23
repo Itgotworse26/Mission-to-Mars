@@ -7,7 +7,7 @@ Robin's web app is looking good and functioning well, but she wants to add more 
 ## Personal Commentary
 I hope Robin doesn't mind the color scheme. I found that using the color names makes the custom.css file easier to read. While the Mission to Mars site's coloring does make it look a little archaic, especially on the table, I personally believe that it is still easy to read and easy on the eyes.
 
-The biggest difficult in creating this website was troubleshooting the app. to make sure the scrape button worked and making sure that changes in the custom.css file are reflected on the website.
+The biggest difficulties in creating this website was troubleshooting the app.py to make sure the scrape button worked and making sure that changes in the custom.css file are reflected on the website.
 
 
 The first problem was solved by fixing a slight typo on line 20 of the app.py. 
